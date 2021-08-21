@@ -1,5 +1,13 @@
 # 100LINES_CRUD
 
+  public static boolean isNumeric(String str) {
+        
+        return str != null && str.matches("[-+]?\\d*\\.?\\d+");
+   }
+
+
+
+
 import java.util.*;
 
 class Student implements Comparable<Student>{  
