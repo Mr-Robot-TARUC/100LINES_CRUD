@@ -6,7 +6,20 @@
    }
 
 
+Example
 
+
+   if(isNumeric(CompoundTimes)){
+   
+                               Looping = false;
+                               
+                            } else{
+                            
+                                continue;
+                                
+                            }
+
+////////////////////////////////////////////////
 
 import java.util.*;
 
