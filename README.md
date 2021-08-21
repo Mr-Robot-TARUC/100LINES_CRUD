@@ -8,6 +8,12 @@
 
 Example
 
+                            CompoundTimes = Compound_Interest_Scanner.next();
+
+
+
+
+
 
    if(isNumeric(CompoundTimes)){
    
