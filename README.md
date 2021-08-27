@@ -8,22 +8,23 @@
 
 Example
 
-                            CompoundTimes = Compound_Interest_Scanner.next();
-
-
-
-
-
-
-   if(isNumeric(CompoundTimes)){
-   
-                               Looping = false;
-                               
+              while(Looping){
+              
+                            System.out.println("Please Enter Your Future Value: ");
+                            
+                            FutureValue = Compound_Interest_Scanner.next();
+                            
+                            if(isNumeric(FutureValue)){
+                            
+                                Looping = false;
+                                
                             } else{
                             
                                 continue;
                                 
-                            }
+                            }             
+
+                        }   
 
 ////////////////////////////////////////////////
 
